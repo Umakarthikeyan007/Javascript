@@ -1,0 +1,17 @@
+.main-block{
+    width:1000px;
+    border: 5px solid black;
+    margin:auto;
+    display: grid;
+    gap:1.5rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.fix1{
+    grid-column-start:2;
+}
+
+.left{
+   width:min-content;
+   grid-row-start: 1;
+   grid-row-end:3 ;
+}

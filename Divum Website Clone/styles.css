@@ -1,0 +1,144 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.First-Block{
+    background-color:#3c4aed;
+}
+.logo{
+    margin-left:350px;
+    width:80px;
+    height:70px;
+}
+@media(max-width:1000px){
+    .logo{
+        margin-left:150px;
+    }
+}
+@media (max-width:600px){
+   .logo{
+     margin-left:75px;
+   }
+}
+.contents{
+    padding-top:30px;
+    margin-right:400px;
+    display:flex;
+    flex-wrap: wrap;
+    float:right;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+}
+.contents a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    padding:20px;
+}
+.contents a:hover{
+    text-decoration-line: underline ;
+    line-gap-override: 2px;
+}
+#btn1{
+    margin-top:-10px;
+    padding:10px;
+    background-color: #3c4aed;
+    color:white;
+    font-size:16px;
+    border-color:white;
+    margin-left:20px;
+    border-radius: 25px;
+}
+#btn1:hover {
+    background-color:white;
+    color:#3c4aed;
+}
+.head{
+    text-align: center;
+    color:white;
+}
+.head video{
+    min-width:100px;
+    width:1200px;
+    height:800px;
+}
+@media(max-width:1250px){
+    .head video{
+        width:900px;
+    }
+}
+@media(max-width:950px){
+    .head video{
+        width:700px;
+    }
+}
+@media(max-width:750px){
+    .head video{
+        width:500px;
+    }
+}
+
+.para1{
+    margin-top:150px;
+    font-size:25px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    opacity:0.7;
+}
+.para2{
+    opacity:0.6;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#btn2{
+    padding:15px;
+    background-color: white;
+    color:#3c4aed;
+    border-radius: 25px;
+    box-shadow: 0px 4px 11px 0px rgb(94, 94, 31);
+    font-family: 'Open Sans', sans-serif;
+}
+#btn2:hover{
+    background-color:blue;
+    color: white;
+    line-height: -2px;
+}
+.Welcome{
+    width:1200px;
+    height:500px;
+    margin: auto;
+    display:flex;
+    gap:10px;
+}
+@media(max-width:1000px){
+    .Welcome{
+        flex-direction:column;
+    }
+    .img-part{
+        margin-left: 150px;
+    }
+}
+@media(max-width:550px) {
+    .img-part{
+        margin-left:0px;
+    }
+    .txt-part{
+        margin-left:0px;
+    }
+}
+.img-part{
+    width:590px;
+    height:auto;
+}
+
+.txt-part{
+    margin-top: 50px;
+    margin-left: 100px;
+    width:590px;
+    height:auto;
+    font-family: 'Open Sans', sans-serif;
+    opacity:0.8;
+}
