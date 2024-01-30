@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+    <script src="action.js">    
+    </script>
+    <title>CRUD Operations</title>
+</head>
+
+<body onload="printAll();">
+    <br><br>
+    <div id="First-div">
+        <h2><center>CREATE/UPDATE EMPLOYEE</center></h2><br><br>
+        <form id="enter-details" autocomplete="off" onsubmit="event.preventDefault(); formSubmit();"><center>
+          <label for="empid">Emp Id:</label>
+          <input type="number" placeholder="Enter your Id" id="empid" required><br><br>
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Enter your Name" id="name" required><br><br>
+          <label for="desig">Designation</label>
+          <input type="text" placeholder="Enter your Desig" id="desig" required><br><br>
+          <label for="sal">Salary:</label>
+          <input type="number" placeholder="Enter your Salary" id="sal" required><br><br>
+          <input type="submit" value="Submit" id="submit">
+          <input type="reset" value="Reset" id="reset">
+    </center></form>
+    </div>
+    <br><br><br>
+    <div id="Second-div">
+       <h2><center>Employee Details</center></h2><br><br>
+       <table id="tableid" cellspacing="30">
+         <thead>
+            <tr>
+           <th>Emp Id</th>
+           <th>Name</th>
+           <th>Designation</th>
+           <th>Salary</th>
+           <th>Customize</th>
+           </tr>
+         </thead>
+         <tbody id="tbody">
+            
+         </tbody>
+       </table>
+    </div>
+</body>
+
+</html>
